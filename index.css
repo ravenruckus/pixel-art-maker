@@ -1,0 +1,29 @@
+body {
+  background-color: rgb(117, 137, 196);
+  box-sizing: border-box;
+}
+* {
+  box-sizing: inherit;
+}
+main{
+  /*border: 3px #333 solid;*/
+
+}
+#canvas{
+  width: 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+div {
+  background-color: #fff;
+  height: 40px;
+  width: 40px;
+  /*border: 1px #888 solid;*/
+}
+#colors {
+  margin-top: 50px;
+}
+
+.red {
+  background-color: red;
+}
