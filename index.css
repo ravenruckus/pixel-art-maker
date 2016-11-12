@@ -10,18 +10,18 @@ main{
 
 }
 #canvas{
-  width: 100px;
+  width: 300px;
   display: flex;
   flex-wrap: wrap;
 }
 div {
-  background-color: #fff;
+  background-color: #000;
   height: 40px;
   width: 40px;
-  /*border: 1px #888 solid;*/
+  border: 1px rgba(#888888, 0.43) solid;
 }
 #colors {
-  margin-top: 50px;
+  margin-top: 25px;
 }
 
 .red {
@@ -32,4 +32,7 @@ div {
 }
 .yellow {
   background-color: yellow;
+}
+.white {
+  background-color: #fff;
 }

@@ -3,17 +3,17 @@
   'use strict';
   const getCanvas = document.getElementById('canvas')
   const getColors =document.getElementById('colors')
-  let currentColor = 'red';
-  const colorArray = ['red', 'blue', 'yellow']
-  let color = 'red'
+  let currentColor = 'white';
+  const colorArray = ['red', 'blue', 'yellow', 'white']
+  let color = 'white'
   getColors.addEventListener('click', (event) => {
     if(event.target === getColors) {
       return;
     }
       currentColor = event.target.classList;
       let colorIndex = colorArray.indexOf(currentColor.value)
-      console.log(currentColor.value)
-      console.log(colorIndex)
+      // console.log(currentColor.value)
+      // console.log(colorIndex)
       console.log(colorArray[colorIndex])
       color = colorArray[colorIndex]
   })
@@ -24,7 +24,8 @@
       return;
     }
     // getMain.classList.add('red');
-      event.target.classList.add(color);
+    console.log(color)
+      event.target.setAttribute("class", color);
   })
 })();
 
