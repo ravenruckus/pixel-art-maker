@@ -1,10 +1,14 @@
-body {
-  background-color: rgb(117, 137, 196);
-  background-color: #333;
+html {
+  font-size: 14px;
   box-sizing: border-box;
 }
 * {
   box-sizing: inherit;
+}
+body {
+  background-color: rgb(117, 137, 196);
+  background-color: #333;
+  /*add margins, font-style, font-size relative to html rem*/
 }
 main{
   width: 750px;
@@ -35,9 +39,8 @@ h1 {
   height:12px;
   width: 12px;
   border-radius: 3px;
-
 }
-
+/*maybe add flexbox to this*/
 #colors {
   width: 100px;
   position: absolute;
