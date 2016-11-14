@@ -1,44 +1,64 @@
 body {
   background-color: rgb(117, 137, 196);
+  background-color: #333;
   box-sizing: border-box;
 }
 * {
   box-sizing: inherit;
 }
 main{
-  /*border: 3px #333 solid;*/
-
+  width: 750px;
+  background-color: #333;
+  border-radius: 5px;
+  margin: auto;
+  position: relative;
+}
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  color: #fff;
+  border-bottom: 1px #fff solid;
 }
 #canvas{
   width: 600px;
+  position: relative;
+  left: 35px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
   margin-bottom: 50px;
+  box-shadow: 5px -7px 5px rgba(221, 223, 230, .5);
+  border-radius: 5px;
 }
 #canvas > div {
-  height:10px;
-  width: 10px;
+  height:12px;
+  width: 12px;
+  border-radius: 3px;
+
 }
 
 #colors {
-  width: 500px;
-  /*margin-top: 250px;*/
+  width: 100px;
+  position: absolute;
+  top: 125px;
+  left: 15px;
 }
 #colors > div {
   height: 40px;
   width: 40px;
   display: inline-block;
-
+  border-radius: 50%;
 }
 .originalColor {
   background-color: #fff;
-  border: 1px rgba(240,240,240, .8) ridge;
+  border: 1px rgba(240,240,240, .3) ridge;
 }
 .reset {
   background-color: #fff;
   border: 1px rgba(240,240,240, .8) ridge;
 }
-.green {
+/*.green {
   background-color: green;
 }
 .red {
@@ -62,7 +82,7 @@ main{
 .grey {
   background-color: #333;
 }
-
+['#333','#F0F8FF','#00FFFF','#7FFFD4','#F0FFFF','#F5F5DC','#0000FF',''
 .black {
   background_bolor: #000;
 }
@@ -217,7 +237,7 @@ main{
       background-color:
 
       }*/
-    .DarkTurquoise {
+    /*.DarkTurquoise {
       background-color:#00CED1;
 
       }
@@ -237,10 +257,7 @@ main{
       background-color:#696969;
 
       }
-    /*.DimGrey {
-      background-color:
 
-      }*/
     .DodgerBlue {
       background-color:#1E90FF;
 
@@ -290,6 +307,6 @@ main{
       .GreenYellow {
         background-color:#ADFF2F;
 
-      }
+      }*/
 
         /*","HoneyDew","HotPink","IndianRed","Indigo","Ivory","Khaki","Lavender","LavenderBlush","LawnGreen","LemonChiffon","LightBlue","LightCoral","LightCyan","LightGoldenRodYellow","LightGray","LightGrey","LightGreen","LightPink","LightSalmon","LightSeaGreen","LightSkyBlue","LightSlateGray","LightSlateGrey","LightSteelBlue","LightYellow","Lime","LimeGreen","Linen","Magenta","Maroon","MediumAquaMarine","MediumBlue","MediumOrchid","MediumPurple","MediumSeaGreen","MediumSlateBlue","MediumSpringGreen","MediumTurquoise","MediumVioletRed","MidnightBlue","MintCream","MistyRose","Moccasin","NavajoWhite","Navy","OldLace","Olive","OliveDrab","Orange","OrangeRed","Orchid","PaleGoldenRod","PaleGreen","PaleTurquoise","PaleVioletRed","PapayaWhip","PeachPuff","Peru","Pink","Plum","PowderBlue","Purple","Red","RosyBrown","RoyalBlue","SaddleBrown","Salmon","SandyBrown","SeaGreen","SeaShell","Sienna","Silver","SkyBlue","SlateBlue","SlateGray","SlateGrey","Snow","SpringGreen","SteelBlue","Tan","Teal","Thistle","Tomato","Turquoise","Violet","Wheat","White","WhiteSmoke","Yellow","YellowGreen"];*/
